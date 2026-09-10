@@ -1,0 +1,39 @@
+AUTONOMY: true
+BOX_THRESHOLD: 0.25
+CAMERA_OFFSET: 0.03
+DEVICE: cuda
+GRIPPER_OFFSET: 0.0
+PATH_TO_GROUNDED_SAM2: /home/labuser/raf_v3_ws/Grounded-SAM-2
+PLATE_DEPTH: 0.33
+SAM2_CHECKPOINT: /checkpoints/sam2.1_hiera_large.pt
+SAM2_MODEL_CONFIG: configs/sam2.1/sam2.1_hiera_l.yaml
+Z_OFFSET: 0.01
+bite_transfer_height: CUSTOM
+isRetryAttempt: false
+logging_file_path: /home/labuser/raf_v3_ws/src/raf_v3/scripts
+on_table: true
+voice_command: false
+velocity_duration: 3.5
+dynamic_sipping: true
+joint_positions:
+  bite_transfer:
+  - 24.451753616333008
+  - 46.604156494140625
+  - 286.0868225097656
+  - 113.88188934326172
+  - 299.07421875
+  - 318.241943359375
+  multi_bite_transfer:
+  - 26.831645965576172
+  - 46.3964958190918
+  - 286.25494384765625
+  - 111.9407730102539
+  - 301.33502197265625
+  - 318.24200439453125
+  cup_feed_pose:
+  - 0.41443024316717536
+  - 0.8826881651289777
+  - 4.994924805695632
+  - 1.9365886930522231
+  - 5.29687294482438
+  - 5.554371860095269

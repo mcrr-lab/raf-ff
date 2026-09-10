@@ -1,0 +1,35 @@
+.env
+scripts/.env
+scripts/img_data/*
+!scripts/img_data/.gitkeep
+
+# --- Runtime logs / state ---
+scripts/logs/*
+!scripts/logs/.gitkeep
+*.log
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# --- ROS / catkin build output ---
+build/
+devel/
+install/
+.catkin_workspace
+*.so
+
+lib/release/*.a
+
+# --- Model checkpoints ---
+*.pt
+*.pth
+checkpoints/
+
+# --- Editor / OS ---
+.vscode/
+.idea/
+.DS_Store
