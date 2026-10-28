@@ -19,6 +19,8 @@ Uses multiple AI models to complete the feeding
 Kinova Gen3 (6 DOF, Robotiq 2F-140) at `192.168.1.10` · Intel RealSense on the end effector ·
 NVIDIA GPU with CUDA (SAM 2 runs locally).
 
+Instructions and CAD files for the custom finger attachments can be found [here](/gripper/).
+
 
 ### Software
 ROS 1 (Noetic) · Python 3 · CUDA-enabled PyTorch.
